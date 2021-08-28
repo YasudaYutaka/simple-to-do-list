@@ -18,3 +18,12 @@
     padding: 0.8rem;
     margin-top: 0.5rem;
 }
+
+
+.invalid label {
+    color: red;
+}
+
+.invalid input {
+    border-color: red;
+}
