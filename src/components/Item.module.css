@@ -1,0 +1,11 @@
+.list {
+    background-color: #1D8A99;
+    color: #FCFFFD;
+    padding: 0.8rem;
+    margin: 0.2rem;
+}
+
+.list:hover {
+    cursor: pointer;
+    background-color: #3f95a0;
+}
