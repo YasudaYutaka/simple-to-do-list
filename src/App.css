@@ -8,3 +8,14 @@
     border-radius: 1rem;
     margin: 5rem auto;
 }
+
+.items-section {
+    width: 45rem;
+    max-width: 90%;;
+    margin: auto;
+}
+
+.nothing {
+    text-align: center;
+    font-size: 2rem;
+}
