@@ -24,12 +24,18 @@ function App() {
     })
   }
 
+  let content = (<p className="nothing">Nothing found :(</p>);
+  if(enteredText.length > 0) {
+    content = (<ItemList text={enteredText} onDeleteItem={deleteItemHandler} />);
+  }
+
   return (
     <header>
       <section className="input-section">
         <ToDoInput onAddItem={addItemHandler} />
       </section>
       <section className="items-section">
+        {content}
       </section>
     </header>
   );
